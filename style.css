@@ -1,0 +1,114 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body{
+    background-color: rgb(216, 206, 221);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: rgb(62, 118, 150);
+    color: white;
+    height: 65px;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+.gameContainer{
+    background-color: rgb(216, 206, 221);
+    display: flex;
+    justify-content: center;
+ 
+    margin-top: 50px;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3,10vw);
+    font-family: 'Montserrat', sans-serif;
+  
+
+}
+
+.box{
+    border: 2px solid black;
+    font-size: 8vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover{
+    background-color: rgb(179, 174, 185);
+}
+
+
+
+.gameInfo{
+
+    padding: 0 34px;
+    
+    font-family: 'Montserrat', sans-serif;
+
+}
+.gameInfo h1{
+    margin-bottom: 10vh;
+}
+.imgbox img{
+    width: 0;
+    transition: width 1s ease-in-out;
+    
+}
+
+
+.bt-0{
+    border-top: 0;
+}
+
+.bl-0{
+    border-left: 0;
+}
+.br-0{
+    border-right: 0;
+}
+
+.bb-0{
+    border-bottom: 0;
+}
+
+
+.gameInfo div{
+    margin-left: 10vh;
+  
+}
+
+.info {
+    font-size: 4vw;
+    font-weight: 700;
+}
+
+
+#reset{
+    height: 5vh;
+    width: 10vw;
+    margin-top: 2vh;
+    margin-left: 4vw;
+    text-shadow: gray;
+    cursor: pointer;
+}
+
+#reset p{
+    font-size: 2vw;
+}
